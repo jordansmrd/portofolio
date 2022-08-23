@@ -1,15 +1,17 @@
 npm install git 
 winget install --id GitHub.cli	
 
+brew install gh => mac user
+
 gh auth login 
 login github.com > https > credential > login with browser
-gh repo create <nama project> --private (untuk private)
+gh repo create <nama project> --private (unuk private)
 gh repo create <nama project> --public (untuk public)
 
-git remote add origin <link github repo kalian>
 git init . 
 git add . 
 git commit -m "nama commit" 
+git remote add origin <link github repo kalian>
 git branch -M <nama branch> (menciptakan branch locally)
 git push -u origin <nama branch> (untuk menciptakan branch di repository)
 git push (apa bila di repository github sudah ada branch tersebut)
