@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F30 Dieu</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+          body{
+            margin: 0px;
+        }
+        #navbar {
+            display: flex;
+            background-color: black;
+            color: white;
+            position: fixed;
+            justify-content:space-evenly;
+            align-items: center;
+            height: 100px;
+            width: 100%;
+        }
+
+        #navbar-logo {
+            padding: 12px 30px;
+
+            font-size: 30px;
+            font-family: sans-serif;
+            cursor: pointer;
+        }
+
+        #navbar div div {
+            padding: 20px 20px;
+
+            text-align: center;
+            font-size: 18px;
+            font-family: sans-serif;
+            cursor: pointer;
+        }
+
+        
+        #navbar div div:hover {
+            background-color: #FF4F41;
+            color: black;
+            
+        }
+
+        
+        #img-grid {
+            height: 1000px;
+            display: grid;
+            grid-template-rows: 11fr 0.7fr 1fr;
+            background: url("assets/ARF_9648.jpg") no-repeat;
+            background-size:100% auto;
+            top: 0;
+            text-align: center;
+            color: white;
+        }
+
+        
+        #header {
+            font-size: 24px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #textcontent {
+            font-size: 15px;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        
+        #band-content {
+            display: grid;
+            padding-top: 5%;
+            grid-template-columns: 1fr 1fr 1fr;
+                text-align: center;
+                max-width: 960px;
+                margin: 0 auto;
+            
+        }
+
+        #img-band{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            column-gap: 40px;
+            justify-items: center;
+
+        }
+
+        #img-band div{
+          width: 250px;
+          height: 250px;
+          padding: 20px;
+        }
+
+
+    </style>
+    
+</head>
+<body>
+    <div id="navbar">
+        <div></div>
+        <div style="display:flex;" id="navbar-logo">
+            F30 <label style="color:#FF4F41;padding-left:5px;padding-right: 5px;">DIEU  </label> |  
+            <label style="padding-left: 10px;font-size:15px;padding-top:10px;color:silver;">
+                live faster than ever
+            </label> 
+        </div>
+
+        <div style="display:flex ;">
+            <div>
+                HOME
+             </div>
+             <div>
+                 SPECIFICATION
+             </div>
+             <div>
+                SOCIAL MEDIA
+             </div>
+        </div>
+            
+            
+            <div id="search">
+<i class="fa fa-search"></i>
+            </div>
+    </div>
+
+
+    <div id="img-grid">
+        <div></div>
+        <div id="header"> Stance F30 </div>
+        <div id="textcontent">Built With Passion Not For Status!</div>
+    </div>
+    
+</body>
+</html>
